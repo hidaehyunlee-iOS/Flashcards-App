@@ -6,7 +6,7 @@ final class StudyView: UIView, RootView {
         let layout = UICollectionViewLayout()
         let view = UICollectionView(frame: .zero, collectionViewLayout: layout)
         view.backgroundColor = .white
-        view.layer.cornerRadius = 20
+        view.layer.cornerRadius = 15
         
         //그림자
         view.layer.masksToBounds = false
@@ -18,10 +18,17 @@ final class StudyView: UIView, RootView {
         return view
     }()
     
-    private var cardView: UIView = {
-        let view = UIView()
+    private var answerButton: UIButton = {
+        let button = UIButton()
+        button.setTitle("Tap to show answer", for: .normal)
+        button.setTitleColor(UIColor.black, for: .normal)
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 20)
+        button.backgroundColor = .white
+        button.layer.cornerRadius = 10
+        button.layer.borderWidth = 0.5
+        button.layer.borderColor = UIColor.gray.cgColor
         
-        return view
+        return button
     }()
     
     override init(frame: CGRect) {
@@ -35,10 +42,17 @@ final class StudyView: UIView, RootView {
     
     func initializeUI() {
         addSubview(collectionView)
+        addSubview(answerButton)
         collectionView.snp.makeConstraints { make in
             make.width.equalTo(330)
             make.height.equalTo(450)
             make.center.equalToSuperview()
+        }
+        answerButton.snp.makeConstraints{ make in
+            make.width.equalTo(270)
+            make.height.equalTo(50)
+            make.bottom.equalTo(safeAreaLayoutGuide.snp.bottom)
+            make.centerX.equalToSuperview()
         }
     }
 }
