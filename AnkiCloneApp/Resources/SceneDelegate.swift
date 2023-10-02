@@ -9,8 +9,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.makeKeyAndVisible()
 
         SettingService.shared.storage = UserDefaultsStorage.shared
-        //window?.rootViewController = MainViewController()
-        window?.rootViewController = StudyViewController()
+        window?.rootViewController = MainViewController()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {}
