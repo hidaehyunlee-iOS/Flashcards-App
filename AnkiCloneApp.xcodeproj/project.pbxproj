@@ -38,6 +38,7 @@
 		333551332AC282130025C29E /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 333551312AC282130025C29E /* CoreData.xcdatamodeld */; };
 		333551352AC282140025C29E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333551342AC282140025C29E /* Assets.xcassets */; };
 		333551382AC282140025C29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333551362AC282140025C29E /* LaunchScreen.storyboard */; };
+		DE7438262ACD12310066AC2A /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7438252ACD12310066AC2A /* SettingViewModel.swift */; };
 		C39346102AC9CE06005DF1D3 /* WordCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C393460F2AC9CE06005DF1D3 /* WordCardView.swift */; };
 		C39346122AC9CFDD005DF1D3 /* WordAnswerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39346112AC9CFDD005DF1D3 /* WordAnswerCardView.swift */; };
 		C39346142ACA795F005DF1D3 /* TimeStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39346132ACA795F005DF1D3 /* TimeStackView.swift */; };
@@ -75,6 +76,7 @@
 		333551342AC282140025C29E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333551372AC282140025C29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		333551392AC282140025C29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7438252ACD12310066AC2A /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		C393460F2AC9CE06005DF1D3 /* WordCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCardView.swift; sourceTree = "<group>"; };
 		C39346112AC9CFDD005DF1D3 /* WordAnswerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordAnswerCardView.swift; sourceTree = "<group>"; };
 		C39346132ACA795F005DF1D3 /* TimeStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStackView.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				33EE741F2ACCFC90004E1BB6 /* ViewModel.swift */,
 				331A57862AC2CE750044A94C /* FlashCard.swift */,
 				331A576C2AC2969B0044A94C /* Deck.swift */,
+				DE7438252ACD12310066AC2A /* SettingViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				331A57812AC2991A0044A94C /* SettingService.swift in Sources */,
 				331A57782AC297720044A94C /* KeyboardHandler.swift in Sources */,
 				331A57742AC297350044A94C /* UIView+Ext.swift in Sources */,
+				DE7438262ACD12310066AC2A /* SettingViewModel.swift in Sources */,
 				331A57722AC297160044A94C /* UserDefaultsStorage.swift in Sources */,
 				331A57632AC2913C0044A94C /* StudyView.swift in Sources */,
 				3335512B2AC282130025C29E /* SceneDelegate.swift in Sources */,
