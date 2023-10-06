@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/swiftarium/EventBus",
       "state" : {
-        "revision" : "1337206753355d64e15a9c1142b675d4d55d16e1",
-        "version" : "1.1.1"
+        "revision" : "083274660833b4313b8209474cdd8a6fd417a882",
+        "version" : "1.1.2"
       }
     },
     {
